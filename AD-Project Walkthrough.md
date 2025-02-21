@@ -140,3 +140,4 @@ To fix this, follow these steps:
 ![network](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20122106.png)
 
 We can access our **Splunk server** locally by navigating to its IP address, `192.168.10.10`, on port `8000`, as this is the default port where Splunk listens for incoming connections. You should see the **Splunk login page**, but if you don't you might need to keep the Splunk server running. 
+![splunk login](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20131606.png)
