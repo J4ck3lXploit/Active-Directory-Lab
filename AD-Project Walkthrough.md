@@ -352,3 +352,14 @@ Next, we can proceed with adding the machine to the domain. When prompted, enter
 **Note:** In a real-world scenario, it's best practice to assign users to custom groups with the necessary permissions to join computers to the domain, rather than using administrator credentials.
 
 Once the machine is successfully joined, we can return to the login page and sign in to **Jenny Smith’s account** using her credentials on the target machine.
+
+#### **Part 5:** Generating Telemetry with Kali and Art
+
+To begin, we need to assign the correct IP address in our kali machine as specified in our diagram (192.168.10.250). To do this, search for **Advanced Network Settings**, select **Wired connection 1**, and click on the **settings** icon located on the bottom left side of the screen. Next, navigate to the IPv4 tab, set the **Method** option to **Manual**, and enter the correct IPv4 address and Gateway.
+
+![static IP](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20163455.png)
+![confirm](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20163503.png)
+
+To simulate a brute-force attacks on our users we created, we can use a tool called **Crowbar** [GitHub](https://github.com/galkan/crowbar) to launch attacks on our AD server or Windows machine. I install the Python version of Crowbar from GitHub, as Linux Debian does not support a specific library (maybe it is possible, but I couldn't find a way).
+
+![crowbar](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20163512.png)
