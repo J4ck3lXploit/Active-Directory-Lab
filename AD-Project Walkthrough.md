@@ -229,7 +229,7 @@ We need to create an index that matches the one specified in `inputs.conf`.
 
 Looking back at our `inputs.conf` file, all events are being sent to an index called **"endpoint"**. Since it’s not listed, we must create it manually.  
 
-!{endpoint](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20151634.png)
+![endpoint](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20151634.png)
 
 
 
