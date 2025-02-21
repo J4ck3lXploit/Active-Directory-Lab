@@ -260,3 +260,11 @@ To confirm that logs are being received:
 **After we've successfully installed Splunk and Sysmon on the target machine, you need to do the same thing for the AD server.**
 
 #### **Part 4:** Configuring Active Directory  
+
+Before we start configuring anything, we need to make sure the Windows Server has the correct IP address, as shown in the network diagram. In our case, it was already set correctly, but if it wasn’t, we would have followed the same steps we used to configure the Windows target machine.
+
+**Configuring Server Manager**
+
+- Open **Server Manager** by searching for it in the Windows search bar.
+- Click **Manage** > **Add Roles and Features**.
+- Click **Next**, make sure the first option is selected, and click **Next** again.
