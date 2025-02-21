@@ -94,3 +94,19 @@ Once we've added **joe** to the **vboxsf** group, we can **create a directory** 
 `sudo mount -t vboxsf -o uid=1000,gid=1000 Downloads /share`
 
 This mounts the **Downloads** shared folder to `/share`, setting correct permissions.
+
+**Installing Splunk**
+
+Now that we have the Splunk `.deb` file inside our shared folder, we can install it:
+
+`cd /share, sudo dpkg -i splunk.deb`
+
+Once installed, switch to the **Splunk user** and navigate to the **Splunk binary directory**:
+
+`sudo -u splunk ~/bin`
+
+Run the Splunk binary to start the service:
+
+`./splunk start`
+
+After **accepting the terms of service**, you'll be prompted to **set up a password** for the **Splunk admin user**.
