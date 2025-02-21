@@ -135,3 +135,4 @@ To fix this, follow these steps:
 - Double-click **Internet Protocol Version 4 (TCP/IPv4)**, and enter the IP address of your choice.
 
 ![Static IP](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20122056.png)
+![network](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20122106.png)
