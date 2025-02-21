@@ -291,3 +291,37 @@ Before we start configuring anything, we need to make sure the Windows Server ha
 
 ![password](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20161604.png)
 
+- Once the prerequisites check is complete, we can click **Install**.
+
+![install](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20161819.png)
+
+- After installation, the system will log us out. When we return to the login page, we should see the domain listed, indicating that AD DS was successfully installed and the server has been promoted to a domain controller.
+
+![login](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20161839.png)
+
+**Adding Users in Active Directory**
+
+Now that everything is installed and configured, we can start adding users.
+ **1. Opening Active Directory Users and Groups**
+
+- Click the **Tools** icon in **Server Manager** and select **Active Directory Users and Computers (ADUC)**.
+- This is where we can create and manage **users, groups, computers, and more**.
+
+**2. Exploring the Default Folders**
+- Expanding the domain reveals several key folders:
+- **Built-in**: Contains default security groups automatically created by Active Directory.
+- **Users**: Stores all user accounts along with additional default groups.
+
+**3. Creating a New User**
+- To add a user, right-click inside the **Users** folder, select **New → User**, and fill in the required details.
+- In a real-world scenario, users are typically organized into departments like **HR, IT, or Finance**, rather than being stored in a single folder.
+
+**4. Organizing Users with Organizational Units (OUs)**
+- To better manage users, we can create **Organizational Units (OUs)**.
+- Right-click the domain, select **New → Organizational Unit**, and name it based on a department or team.
+
+**5. Adding Users to an OU**
+- Once an OU is created, you can add users by right-clicking the unit and selecting **New → User**.
+
+![IT](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20162251.png)
+![HR](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20162301.png)
