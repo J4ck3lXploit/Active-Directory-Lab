@@ -41,4 +41,6 @@ To install a Splunk Server, visit this [link](https://ubuntu.com/) and download 
 
 **VirtualBox and Networking Issues**
 Before setting up Splunk, make sure you're using the latest version of **Oracle VirtualBox**. I spent hours troubleshooting **NAT network issues**, only to discover that updating VirtualBox was the simple solution. To create a NAT network, navigate to the **Tools** icon, click **Create**, assign a name and an IPv4 prefix, then assign all devices to the newly created NAT network.
-![NAT](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20114504.png)
+![NAT](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20114704.png)
+
+
