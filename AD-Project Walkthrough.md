@@ -110,3 +110,12 @@ Run the Splunk binary to start the service:
 `./splunk start`
 
 After **accepting the terms of service**, you'll be prompted to **set up a password** for the **Splunk admin user**.
+
+**Ensuring Splunk Starts on Boot**
+
+To ensure Splunk starts **automatically after a reboot**, exit the **Splunk user**, navigate to the bin directory where the binaries are located, and run the following command:
+
+`./splunk enable boot-start`
+
+This ensures Splunk will always start when the machine powers on.
+
