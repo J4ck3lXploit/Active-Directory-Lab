@@ -302,6 +302,7 @@ Before we start configuring anything, we need to make sure the Windows Server ha
 **Adding Users in Active Directory**
 
 Now that everything is installed and configured, we can start adding users.
+
  **1. Opening Active Directory Users and Groups**
 
 - Click the **Tools** icon in **Server Manager** and select **Active Directory Users and Computers (ADUC)**.
