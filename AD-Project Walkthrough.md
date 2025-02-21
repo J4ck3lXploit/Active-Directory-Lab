@@ -190,5 +190,5 @@ Visit [github](https://github.com/MyDFIR/Active-Directory-Project) to get a pre-
 
 Save the file and the content from the **Notepad** into the directroy,`C:\Program Files\SplunkUniversalForwarder\etc\system\local\`, with the filename **inputs.conf**
 
-1[notepad](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20141243.png)
+![notepad](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20141243.png)
 
