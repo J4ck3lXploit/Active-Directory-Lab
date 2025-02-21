@@ -178,7 +178,7 @@ However, we **don’t** want to modify the default configuration files directly.
 Since **administrator privileges** are required to create or modify files in this directory, follow these steps:
 
 1. Open **Notepad** as Administrator:
-- Press `Win + S`, type **Notepad**, right-click it, and select **Run as administrator**.
+- In the **search bar**, type **Notepad**, right-click it, and select **Run as administrator**.
 
 1. Visit [github](https://github.com/MyDFIR/Active-Directory-Project) to get a pre-configured Splunk universal forwarder config file. This file is set up to forward logs related to:
 - **Application logs**
