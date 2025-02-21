@@ -162,4 +162,5 @@ On the target machine, download Sysmon from the [Sysmon download page](https://l
 ![powershell](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20133210.png)
 
 **Configuring the Splunk Universal Forwarder (inputs.conf)**
+
 This step is **crucial** because we need to configure the **Splunk Universal Forwarder** to specify **which logs** we want to send to our **Splunk Server**.
