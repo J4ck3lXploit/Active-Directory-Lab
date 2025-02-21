@@ -280,3 +280,14 @@ Before we start configuring anything, we need to make sure the Windows Server ha
 ![install](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20161306.png)
 
 - After the download is complete, we can proceed to promote the server to a domain controller.
+
+![DC](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20161541.png)
+
+- Select **Add a new forest domain**, then click **Next**.
+
+![forest](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20161556.png)
+
+- Keep the default settings, set a password, and click **Next**.
+
+![password](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20161604.png)
+
