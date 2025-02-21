@@ -13,6 +13,7 @@ AD-Project
 **Part 4:** Configuring Active Directory  
 **Part 5:** Generating Telemetry with Kali 
 
+---
 
 #### **Part 1**: Designing a Lab Diagram
 The goal of this project is to set up an Active Directory (AD) lab to simulate attacks on AD users and capture the activity on our Splunk server for analysis. The lab will consist of the following components:
@@ -36,6 +37,8 @@ To install Windows Server, visit this [link](https://www.microsoft.com/en-us/eva
 
 **Splunk Server**
 To install a Splunk Server, visit this [link](https://ubuntu.com/) and download the latest **Ubuntu Server** ISO. Once the download is complete, open VirtualBox, click **New**, enter a name (e.g., Splunk), add the ISO image, and skip unattended installation. Finally, adjust the system specifications based on your hardware capabilities before proceeding with the installation.
+
+---
 
 #### **Part 3:** Installing and Configuring Sysmon and Splunk  
 
