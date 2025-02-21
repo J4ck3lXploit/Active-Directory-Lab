@@ -219,4 +219,17 @@ At this point, we have installed **Sysmon**, configured **Splunk Universal Forwa
 
 Log into **Splunk Web** using the credentials set during installation.  
 
+![Splunk UI](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20151612.png)
+
+**2. Creating an Index**
+
+We need to create an index that matches the one specified in `inputs.conf`.
+
+![index](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20151623.png)
+
+Looking back at our `inputs.conf` file, all events are being sent to an index called **"endpoint"**. Since it’s not listed, we must create it manually.  
+
+!{endpoint](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20151634.png)
+
+
 
