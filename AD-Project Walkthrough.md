@@ -20,3 +20,4 @@ The goal of this project is to set up an Active Directory (AD) lab to simulate a
 - **Kali Linux Machine** (attacker)
 - **Windows Server** (Active Directory and Domain Controller)
 - **Splunk Server** (to monitor and analyze the attacks)
+![Diagram](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-12%20155412.png)
