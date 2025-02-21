@@ -42,7 +42,7 @@ To install a Splunk Server, visit this [link](https://ubuntu.com/) and download 
 
 ---
 
-#### **Part 3:** Installing and Configuring Sysmon and Splunk  
+#### **Part 3:** Installing and Configuring Splunk and Sysmon  
 
 **VirtualBox and Networking Issues**
 Before setting up Splunk, make sure you're using the latest version of **Oracle VirtualBox**. I spent hours troubleshooting **NAT network issues**, only to discover that updating VirtualBox was the simple solution. To create a NAT network, navigate to the **Tools** icon, click **Create**, assign a name and an IPv4 prefix, then assign all devices to the newly created NAT network.
@@ -151,3 +151,9 @@ After downloading the Splunk Universal Forwarder, we can open the installer, che
 Next, we’ll configure the **Receiving Server**. Set this to the IP address of our **Splunk server**, which listens on port **9997** by default when receiving events.
 
 ![UF](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20131829.png)
+
+**Installing Sysmon and Configuring It with a Custom Rule Set**
+
+On the target machine, download Sysmon from the [Sysmon download page](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon). For configuration, visit the [Sysmon Modular GitHub repository](https://github.com/olafhartong/sysmon-modular) and download the XML configuration file (sysmonconfig.xml) from the bottom of the repository onto the downloads directory.
+
+
