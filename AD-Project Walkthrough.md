@@ -157,7 +157,9 @@ Next, we’ll configure the **Receiving Server**. Set this to the IP address of 
 On the target machine, download Sysmon from the [Sysmon download page](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon). For configuration, visit the [Sysmon Modular GitHub repository](https://github.com/olafhartong/sysmon-modular) and download the XML configuration file (sysmonconfig.xml) from the bottom of the repository onto the downloads directory.
 
 - Once those two things are successfully downloaded, extract the Sysmon ZIP file and copy the file path of the extracted folder. 
-- Open **PowerShell as Administrator**, navigate to the copied path, and install Sysmon using the downloaded configuration file. This command installs Sysmon and applies the configuration, ensuring we capture relevant system events for monitoring.
+- Open **PowerShell as Administrator**, navigate to the copied path, and install Sysmon using the downloaded configuration file. This command installs Sysmon and applies the configuration.
 
 ![powershell](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20133210.png)
 
+**Configuring the Splunk Universal Forwarder (inputs.conf)**
+This step is **crucial** because we need to configure the **Splunk Universal Forwarder** to specify **which logs** we want to send to our **Splunk Server**.
