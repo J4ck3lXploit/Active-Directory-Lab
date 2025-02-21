@@ -332,6 +332,9 @@ Now that everything is installed and configured, we can start adding users.
 
 - Open **System Properties** (pc in search bar → Properties → Advanced system settings).
 - Under Computer Name, click Change, then enter the domain name.
+- You will run into this issue.
+
+![issue](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20162916.png)
 
 Fixing **MY`name`.local** Resolution Issue:
 
@@ -341,3 +344,11 @@ Fixing **MY`name`.local** Resolution Issue:
 - Replace the current DNS (e.g., 8.8.8.8) with the Domain Controller’s IP.
 - Verify changes in Command Prompt (cmd).
 - Now, **MY`name`.local** should resolve correctly.
+
+Next, we can proceed with adding the machine to the domain. When prompted, enter the **administrator login credentials** to complete the process.
+
+![login](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20163117.png)
+![changhe](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20163128.png)
+**Note:** In a real-world scenario, it's best practice to assign users to custom groups with the necessary permissions to join computers to the domain, rather than using administrator credentials.
+
+Once the machine is successfully joined, we can return to the login page and sign in to **Jenny Smith’s account** using her credentials on the target machine.
