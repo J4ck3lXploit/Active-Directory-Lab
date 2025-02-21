@@ -119,3 +119,19 @@ To ensure Splunk starts **automatically after a reboot**, exit the **Splunk user
 
 This ensures Splunk will always start when the machine powers on.
 
+**Installing Splunk Universal Forwarder and Sysmon**
+
+After successfully installing Splunk on the Splunk server, we can proceed with installing the **Splunk Universal Forwarder** and **Sysmon** on both our **target machine** and **AD server**.
+
+We need to ensure the IP address assigned to the machine matches the one in our network diagram. You can check this by opening the **Command Prompt** and typing `ipconfig`. This will display the network information.
+![network](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20122005.png)
+
+**Assign a Correct IP Address**  
+To fix this, follow these steps:
+
+- Right-click the **Network/Internet** icon and select **Open Network & Internet Settings**.
+- Scroll down and click on **Change adapter settings**.
+- Right-click the network adapter you’re using and select **Properties**.
+- Double-click **Internet Protocol Version 4 (TCP/IPv4)**, and enter the IP address of your choice.
+
+![Static IP](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20122056.png)
