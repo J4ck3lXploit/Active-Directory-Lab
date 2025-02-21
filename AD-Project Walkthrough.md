@@ -57,5 +57,6 @@ To change the assigned IP, navigate to:
 - Assign the **Splunk server** the IP `192.168.10.10`.
 - Set **Google's DNS** to `8.8.8.8`.
 - Define the **default route and gateway**.
+
 ![static IP](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-13%20191738.png)
 
