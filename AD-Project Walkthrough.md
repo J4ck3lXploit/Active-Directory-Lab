@@ -192,3 +192,12 @@ Save the file and the content from the **Notepad** into the directroy,`C:\Progra
 
 ![notepad](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20141243.png)
 
+**3. Editing Services**
+
+After modifying `inputs.conf`, you must **restart the Splunk Universal Forwarder service** to apply the changes. 
+- Open the **Services** application:
+- In the **search bar**, type **Services**, and hit **Enter**.
+- Find **SplunkForwarder** in the list.
+- Right-click it and select **Restart**.
+
+![services](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20150713.png)
