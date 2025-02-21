@@ -378,9 +378,10 @@ Click **Select Users** and add the two users we created on our domain.
 
 At this point, we can launch the brute-force attack by running the following command: 
 
-`python3 crowbar.py -b rdp -C rockyou.txt -s 192.168.100.100/32`.  
+`python3 crowbar.py -b rdp -C rockyou.txt -s 192.168.100.100/32`  
 
 Within a few seconds, we successfully obtain the credentials.
 
+We can head over to Splunk to examine the telemetry we've generated. To do this, navigate to **Search and Reporting**, then type **index=endpoint tsmith**. This will display all the data associated with the specific user. From here, we can dive deeper into the EventCode logs for more detailed information. In this case, we focus on Event ID `4625`, which corresponds to a failed logon attempt. This is a direct result of our brute-forcing attack on the user's login credentials. For further context on Event ID 4625, you can check the detailed explanation [link](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4625)
 
-
+![event id](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20163542.png)
