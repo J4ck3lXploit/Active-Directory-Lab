@@ -363,3 +363,15 @@ To begin, we need to assign the correct IP address in our kali machine as specif
 To simulate a brute-force attacks on our users we created, we can use a tool called **Crowbar** [GitHub](https://github.com/galkan/crowbar) to launch attacks on our AD server or Windows machine. I install the Python version of Crowbar from GitHub, as Linux Debian does not support a specific library (maybe it is possible, but I couldn't find a way).
 
 ![crowbar](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20163512.png)
+
+In addition, I manually downloaded the **rockyou.txt** wordlist [GitHub Link](https://github.com/praetorian-inc/Hob0Rules/blob/master/wordlists/rockyou.txt.gz).
+
+
+Since I assigned strong passwrods for the users, I'll speed up the cracking process by placing the password within the first 20-50 words of rockyou.txt. 
+
+Before we can launch any attacks, we need to enable **RDP** on our target Windows machine. This can be done by searching for **PC**, selecting **Properties**, then **Advanced system settings**. In the **Remote** tab, choose the second option in the **Remote Desktop** section.
+
+![rdp](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20163526.png)
+
+
+
