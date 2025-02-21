@@ -15,7 +15,7 @@ AD-Project
 
 ---
 
-#### **Part 1**: Designing a Lab Diagram
+### **Part 1**: Designing a Lab Diagram
 The goal of this project is to set up an Active Directory (AD) lab to simulate attacks on AD users and capture the activity on our Splunk server for analysis. The lab will consist of the following components:
 - **Windows Machines** (victims)
 - **Kali Linux Machine** (attacker)
