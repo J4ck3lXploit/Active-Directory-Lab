@@ -326,3 +326,18 @@ Now that everything is installed and configured, we can start adding users.
 
 ![IT](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20162251.png)
 ![HR](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20162301.png)
+
+
+**Joining Windows Machine to the Domain & Fixing DNS Issues**
+
+- Open **System Properties** (pc in search bar → Properties → Advanced system settings).
+- Under Computer Name, click Change, then enter the domain name.
+
+Fixing **MY`name`.local** Resolution Issue:
+
+- Open Network & Internet Settings (right-click network icon → Open settings).
+- Click Change adapter options.
+- Right-click the active network adapter → Properties → IPv4.
+- Replace the current DNS (e.g., 8.8.8.8) with the Domain Controller’s IP.
+- Verify changes in Command Prompt (cmd).
+- Now, **MY`name`.local** should resolve correctly.
