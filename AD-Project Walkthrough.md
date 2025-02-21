@@ -78,3 +78,19 @@ These packages allow **shared folder access** and let us add users to different 
 
 After installing the virtual machines, **add a shared folder** from the host to the **Splunk VM** by opening VirtualBox settings, navigating to Shared Folders, clicking the blue folder (+) icon, selecting a folder, enabling Auto-mount, and clicking OK.
 ![shared folder](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20121032.png)
+
+**Accessing Shared Folders in VirtualBox**
+
+When we create a **shared folder** in VirtualBox, it gets mounted under:  
+`/media/sf_sharedfoldername`
+
+However, only members of the **vboxsf** group can access it.  
+To give our user (`joe`) access, run:
+
+`sudo adduser joe vboxsf`
+
+Once we've added **joe** to the **vboxsf** group, we can **create a directory** and **mount** the shared folder:
+
+`sudo mount -t vboxsf -o uid=1000,gid=1000 Downloads /share`
+
+This mounts the **Downloads** shared folder to `/share`, setting correct permissions.
