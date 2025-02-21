@@ -231,5 +231,30 @@ Looking back at our `inputs.conf` file, all events are being sent to an index ca
 
 ![endpoint](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20151634.png)
 
+Click **New Index**, and name it **endpoint**.  
 
+![adding](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20151642.png) 
 
+**3. Configuring Data Reception**
+
+To enable the Splunk server to receive forwarded data:
+
+- Navigate to **Settings** → **Forwarding and Receiving**
+- Under **Receiving Data**, click **Configure Receiving**
+- **Add a new receiving port** (default is `9997`) and **Save**  
+
+![config](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20152132.png)
+
+**4. Verifying Data Ingestion**
+
+To confirm that logs are being received:
+
+- Click the **Apps** icon → **Search & Reporting**
+- In the search bar, enter:
+`index=endpoint`
+- If data is being received, you should see log events appearing.  
+
+![data](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20152139.png)
+![data](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20152147.png)
+
+**After we've successfully installed Splunk and Sysmon on the target machine, we can do the exact same thing for the AD server.**
