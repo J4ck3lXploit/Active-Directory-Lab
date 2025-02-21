@@ -164,3 +164,26 @@ On the target machine, download Sysmon from the [Sysmon download page](https://l
 **Configuring the Splunk Universal Forwarder (inputs.conf)**
 
 This step is **crucial** because we need to configure the **Splunk Universal Forwarder** to specify **which logs** we want to send to our **Splunk Server**.
+
+**1. Locate the Configuration Directory**
+
+The `inputs.conf` file is located in:
+`C:\Program Files\SplunkUniversalForwarder\etc\system\default\`
+
+However, we **don’t** want to modify the default configuration files directly. Instead, we will create a new `inputs.conf` file in the **local** directory:
+`C:\Program Files\SplunkUniversalForwarder\etc\system\local\`
+
+**2. Create and Edit `inputs.conf`**
+
+Since **administrator privileges** are required to create or modify files in this directory, follow these steps:
+
+1. Open **Notepad** as Administrator:
+- Press `Win + S`, type **Notepad**, right-click it, and select **Run as administrator**.
+
+1. Visit [github](https://github.com/MyDFIR/Active-Directory-Project) to get a pre-configured Splunk universal forwarder config file. This file is set up to forward logs related to:
+- **Application logs**
+- **Security logs**
+- **System logs**
+- **Sysmon logs**
+
+![config](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20140836.png)
