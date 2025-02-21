@@ -357,7 +357,7 @@ Once the machine is successfully joined, we can return to the login page and sig
 
 ---
 
-### **Part 5:** Generating Telemetry with Kali and Art
+### **Part 5:** Generating Telemetry with Kali
 
 To begin, we need to assign the correct IP address in our kali machine as specified in our diagram (192.168.10.250). To do this, search for **Advanced Network Settings**, select **Wired connection 1**, and click on the **settings** icon located on the bottom left side of the screen. Next, navigate to the IPv4 tab, set the **Method** option to **Manual**, and enter the correct IPv4 address and Gateway.
 
