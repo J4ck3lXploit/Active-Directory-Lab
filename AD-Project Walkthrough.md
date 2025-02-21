@@ -1,8 +1,8 @@
 ---
-AD-Project
+Active Directory Lab in VirtualBox
 ---
 
-#### **Overall Project Objectives:**
+#### **Project Objectives:**
 - Set up an **Active Directory** environment
 - Deploy **Splunk** to monitor AD and Windows activities
 
@@ -259,6 +259,8 @@ To confirm that logs are being received:
 
 **After we've successfully installed Splunk and Sysmon on the target machine, you need to do the same thing for the AD server.**
 
+---
+
 ### **Part 4:** Configuring Active Directory  
 
 Before we start configuring anything, we need to make sure the Windows Server has the correct IP address, as shown in the network diagram. In our case, it was already set correctly, but if it wasn’t, we would have followed the same steps we used to configure the Windows target machine.
@@ -352,6 +354,8 @@ Next, we can proceed with adding the machine to the domain. When prompted, enter
 **Note:** In a real-world scenario, it's best practice to assign users to custom groups with the necessary permissions to join computers to the domain, rather than using administrator credentials.
 
 Once the machine is successfully joined, we can return to the login page and sign in to **Jenny Smith’s account** using her credentials on the target machine.
+
+---
 
 ### **Part 5:** Generating Telemetry with Kali and Art
 
