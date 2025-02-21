@@ -60,3 +60,21 @@ To change the assigned IP, navigate to:
 
 ![static IP](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-13%20191738.png)
 ![ping](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-13%20191718.png)
+
+**Downloading and Installing Splunk**
+
+Once the network is properly configured, we can contunite to **downloading Splunk**:
+- Go to this ![link](https://www.splunk.com/), register an account, and download the `.deb` package.
+
+However, before we install Splunk, we need to **enable file sharing** between the **host and VM**.
+
+**Setting Up Shared Folders in VirtualBox**
+
+To enable file sharing, we need to install the following packages on the **Splunk VM**:
+
+`sudo apt-get install virtualbox-guest-additions-iso virtualbox-guest-utils`
+
+These packages allow **shared folder access** and let us add users to different groups.
+
+After installing them, we can **add a shared folder** from the **host** to the **Splunk VM** and then reboot the machine.
+
