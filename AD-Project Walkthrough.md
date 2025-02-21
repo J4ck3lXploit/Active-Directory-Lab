@@ -127,6 +127,7 @@ We need to ensure the IP address assigned to the machine matches the one in our 
 ![network](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20122005.png)
 
 **Assign a Correct IP Address**  
+
 To fix this, follow these steps:
 
 - Right-click the **Network/Internet** icon and select **Open Network & Internet Settings**.
