@@ -201,3 +201,12 @@ After modifying `inputs.conf`, you must **restart the Splunk Universal Forwarder
 - Right-click it and select **Restart**.
 
 ![services](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20150713.png)
+
+Also by default, Splunk runs under the **NT SERVICE** account, which may **not have sufficient permissions** to collect all necessary logs. To fix this:
+
+- Right-click and select **Properties** for **SplunkForwader**.
+- Navigate to the **Log On** tab.
+- Select **“This account”**, and enter credentials for an account with **higher privileges**.
+- Restart the service to apply the changes.
+
+![privs](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20150725.png)
