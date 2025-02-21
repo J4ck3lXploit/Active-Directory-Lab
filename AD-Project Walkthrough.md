@@ -210,3 +210,13 @@ Also by default, Splunk runs under the **NT SERVICE** account, which may **not h
 - Restart the service to apply the changes.
 
 ![privs](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20150725.png)
+
+**Finalizing Splunk Server Configuration**
+
+At this point, we have installed **Sysmon**, configured **Splunk Universal Forwarder**, and updated our **inputs.conf** file. Now, we can finish the Splunk setup.
+
+**1. Logging into Splunk**
+
+Log into **Splunk Web** using the credentials set during installation.  
+
+
