@@ -26,7 +26,7 @@ The goal of this project is to set up an Active Directory (AD) lab to simulate a
 
 ---
 
-#### **Part 2:** Installing Virtual Machines (Windows & Linux)  
+### **Part 2:** Installing Virtual Machines (Windows & Linux)  
 
 **Windows 10**
 To install Windows 10, visit this [link](https://www.microsoft.com/en-ca/software-download/windows10) and click **Download Tool Now** to get the Media Creation Tool, which will generate a Windows ISO image. Once downloaded, open the tool, accept the agreement, select **Create installation media (ISO file)**, and proceed until you reach the **Choose which media to use** page, then select **ISO file**. After the ISO file is created, open VirtualBox, click **New**, enter a name (demo), select the ISO image, skip unattended installation, and configure the necessary system specifications before installation (The specs heavily depend on your systems capabilities).
@@ -42,7 +42,7 @@ To install a Splunk Server, visit this [link](https://ubuntu.com/) and download 
 
 ---
 
-#### **Part 3:** Installing and Configuring Splunk and Sysmon  
+### **Part 3:** Installing and Configuring Splunk and Sysmon  
 
 **VirtualBox and Networking Issues**
 Before setting up Splunk, make sure you're using the latest version of **Oracle VirtualBox**. I spent hours troubleshooting **NAT network issues**, only to discover that updating VirtualBox was the simple solution. To create a NAT network, navigate to the **Tools** icon, click **Create**, assign a name and an IPv4 prefix, then assign all devices to the newly created NAT network.
@@ -259,7 +259,7 @@ To confirm that logs are being received:
 
 **After we've successfully installed Splunk and Sysmon on the target machine, you need to do the same thing for the AD server.**
 
-#### **Part 4:** Configuring Active Directory  
+### **Part 4:** Configuring Active Directory  
 
 Before we start configuring anything, we need to make sure the Windows Server has the correct IP address, as shown in the network diagram. In our case, it was already set correctly, but if it wasn’t, we would have followed the same steps we used to configure the Windows target machine.
 
@@ -353,7 +353,7 @@ Next, we can proceed with adding the machine to the domain. When prompted, enter
 
 Once the machine is successfully joined, we can return to the login page and sign in to **Jenny Smith’s account** using her credentials on the target machine.
 
-#### **Part 5:** Generating Telemetry with Kali and Art
+### **Part 5:** Generating Telemetry with Kali and Art
 
 To begin, we need to assign the correct IP address in our kali machine as specified in our diagram (192.168.10.250). To do this, search for **Advanced Network Settings**, select **Wired connection 1**, and click on the **settings** icon located on the bottom left side of the screen. Next, navigate to the IPv4 tab, set the **Method** option to **Manual**, and enter the correct IPv4 address and Gateway.
 
