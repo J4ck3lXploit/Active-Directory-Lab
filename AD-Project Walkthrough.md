@@ -141,3 +141,10 @@ To fix this, follow these steps:
 
 We can access our **Splunk server** locally by navigating to its IP address, `192.168.10.10`, on port `8000`, as this is the default port where Splunk listens for incoming connections. You should see the **Splunk login page**, but if you don't you might need to keep the Splunk server running. 
 ![splunk login](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20131606.png)
+
+Since Splunk is working correctly, we can now proceed with installing the Splunk Universal Forwarder. To do this, visit [splunk](https://www.splunk.com), log in or sign up for an account, go to the "Products" section, then navigate to "Free Trials and Downloads." Scroll all the way down to find the **Universal Forwarder** section.
+
+After downloading the Splunk Universal Forwarder, we can open the installer, check the License Agreement box, and keep the first option selected. For the credentials, use **admin** as the username and leave the "Generate Password" option selected. Since we don’t have a Deployment Server, we can skip that step.
+
+Next, we’ll configure the **Receiving Server**. Set this to the IP address of our **Splunk server**, which listens on port **9997** by default when receiving events.
+![UF](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20131829.png)
