@@ -268,3 +268,15 @@ Before we start configuring anything, we need to make sure the Windows Server ha
 - Open **Server Manager** by searching for it in the Windows search bar.
 - Click **Manage** > **Add Roles and Features**.
 - Click **Next**, make sure the first option is selected, and click **Next** again.
+
+![server managaer](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20161248.png)
+
+- Select **Active Directory Domain Services (AD DS)**, then click **Add Features** and **Next**.
+
+![Services](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20161255.png)
+
+- Keep clicking **Next** until you reach the install page, then click **Install**.
+
+![install](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20161306.png)
+
+- After the download is complete, we can proceed to promote the server to a domain controller.
