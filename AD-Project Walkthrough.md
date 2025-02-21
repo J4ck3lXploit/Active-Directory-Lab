@@ -147,4 +147,5 @@ Since Splunk is working correctly, we can now proceed with installing the Splunk
 After downloading the Splunk Universal Forwarder, we can open the installer, check the License Agreement box, and keep the first option selected. For the credentials, use **admin** as the username and leave the "Generate Password" option selected. Since we don’t have a Deployment Server, we can skip that step.
 
 Next, we’ll configure the **Receiving Server**. Set this to the IP address of our **Splunk server**, which listens on port **9997** by default when receiving events.
+
 ![UF](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20131829.png)
