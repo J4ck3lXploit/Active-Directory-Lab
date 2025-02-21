@@ -52,6 +52,7 @@ Once we've assigned the correct network adapter type (ActiveDirectory which is o
 ![random IP](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-13%20190722.png)
 
 **Configuring a Static IP for Splunk**
+
 To change the assigned IP, navigate to:  
 `/etc/netplan/*.yaml` and modify the file as follows:
 - Assign the **Splunk server** the IP `192.168.10.10`.
