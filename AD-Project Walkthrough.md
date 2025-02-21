@@ -59,4 +59,4 @@ To change the assigned IP, navigate to:
 - Define the **default route and gateway**.
 
 ![static IP](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-13%20191738.png)
-
+![ping](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-13%20191718.png)
