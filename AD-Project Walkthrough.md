@@ -366,12 +366,21 @@ To simulate a brute-force attacks on our users we created, we can use a tool cal
 
 In addition, I manually downloaded the **rockyou.txt** wordlist [GitHub Link](https://github.com/praetorian-inc/Hob0Rules/blob/master/wordlists/rockyou.txt.gz).
 
-
-Since I assigned strong passwrods for the users, I'll speed up the cracking process by placing the password within the first 20-50 words of rockyou.txt. 
+Since I assigned strong passwords for the users, I'll speed up the cracking process by placing the password within the first 20-50 words of rockyou.txt. 
 
 Before we can launch any attacks, we need to enable **RDP** on our target Windows machine. This can be done by searching for **PC**, selecting **Properties**, then **Advanced system settings**. In the **Remote** tab, choose the second option in the **Remote Desktop** section.
 
 ![rdp](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20163526.png)
+
+Click **Select Users** and add the two users we created on our domain.
+
+![users](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20163534.png)
+
+At this point, we can launch the brute-force attack by running the following command: 
+
+`python3 crowbar.py -b rdp -C rockyou.txt -s 192.168.100.100/32`.  
+
+Within a few seconds, we successfully obtain the credentials.
 
 
 
