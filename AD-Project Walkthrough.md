@@ -47,7 +47,9 @@ To install a Splunk Server, visit this [link](https://ubuntu.com/) and download 
 ### **Part 3:** Installing and Configuring Splunk and Sysmon  
 
 **VirtualBox and Networking Issues**
-Before setting up Splunk, make sure you're using the latest version of **Oracle VirtualBox**. I spent hours troubleshooting **NAT network issues**, only to discover that updating VirtualBox was the simple solution. To create a NAT network, navigate to the **Tools** icon, click **Create**, assign a name and an IPv4 prefix, then assign all devices to the newly created NAT network.
+Before setting up Splunk, make sure you're using the latest version of **Oracle VirtualBox**. I spent hours troubleshooting **NAT network issues**, only to discover that updating VirtualBox was the simple solution.
+
+To create a NAT network, navigate to the **Tools** icon, click **Create**, assign a name and an IPv4 prefix, then assign all devices to the newly created NAT network.
 ![NAT](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20114704.png)
 
 Once we've assigned the correct network adapter type (ActiveDirectory which is our NAT network name) to our VMs, we can boot up the **Splunk server** and start configuring it. As shown in the image, the server is assigned a **random IP address** within the NAT subnet we created. However, we need to assign it a **static IP** that matches our network diagram.
