@@ -28,7 +28,7 @@ The goal of this project is to set up an Active Directory (AD) lab to simulate a
 
 ### **Part 2:** Installing Virtual Machines (Windows & Linux)  
 
-**Note**: The specifications for the machines heavildy depend on your systems capabilties.
+**Note**: The specifications for the machines heavily depend on your systems capabilties.
 
 **Windows 10**
 To install Windows 10, visit this [link](https://www.microsoft.com/en-ca/software-download/windows10) and click **Download Tool Now** to get the Media Creation Tool, which will generate a Windows ISO image. Once downloaded, open the tool, accept the agreement, select **Create installation media (ISO file)**, and proceed until you reach the **Choose which media to use** page, then select **ISO file**. After the ISO file is created, open VirtualBox, click **New**, enter a name (demo), select the ISO image, skip unattended installation, and configure the necessary system specifications before installation.
