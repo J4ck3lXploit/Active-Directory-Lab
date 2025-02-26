@@ -148,7 +148,7 @@ We can access our **Splunk server** locally by navigating to its IP address, `19
 
 **Installing Splunk Universal Forwader**
 
-Since Splunk is working correctly, we can now proceed with installing the Splunk Universal Forwarder. To do this, visit [splunk](https://www.splunk.com), log in or sign up for an account, go to the "Products" section, then navigate to "Free Trials and Downloads." Scroll all the way down to find the **Universal Forwarder** section.
+Since Splunk is working correctly, we can now install the Splunk Universal Forwarder. To do this, visit [splunk](https://www.splunk.com), log in or sign up for an account, go to the "Products" section, then navigate to "Free Trials and Downloads." Scroll all the way down to find the **Universal Forwarder** section.
 
 After downloading the Splunk Universal Forwarder, we can open the installer, check the License Agreement box, and keep the first option selected. For the credentials, use **admin** as the username and leave the "Generate Password" option selected. Since we don’t have a Deployment Server, we can skip that step.
 
