@@ -396,4 +396,4 @@ We can head over to Splunk to examine the telemetry we've generated. To do this,
 
 ### Beyond
 
-r
+The cool thing about Splunk is you can set custom alerts to trigger when something weird is hapenning. As we demonstrated in the step above we can launch a brute force attack, get credentials, and rdp into a user. With Splunk we can set a cusotom rule by going to the   setting an alert saying if a user has had more than five failed loggen attempts to raise flag or suspcuisiopuns on that specific user and find out what happening there.
