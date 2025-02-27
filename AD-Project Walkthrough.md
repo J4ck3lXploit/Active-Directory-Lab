@@ -98,8 +98,6 @@ Once we've added **joe** to the **vboxsf** group, we can **create a directory** 
 
 `sudo mount -t vboxsf -o uid=1000,gid=1000 Downloads /share`
 
-This mounts the **Downloads** shared folder to `/share`, setting correct permissions.
-
 **Installing Splunk**
 
 Now that we have the Splunk `.deb` file inside our shared folder, we can install it:
@@ -121,8 +119,6 @@ After **accepting the terms of service**, you'll be prompted to **set up a passw
 To ensure Splunk starts **automatically after a reboot**, exit the **Splunk user**, navigate to the bin directory where the binaries are located, and run the following command:
 
 `./splunk enable boot-start`
-
-This ensures Splunk will always start when the machine powers on.
 
 **Installing Splunk Universal Forwarder and Sysmon**
 
