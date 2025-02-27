@@ -385,4 +385,12 @@ We can head over to Splunk to examine the telemetry we've generated. To do this,
 
 ### Beyond
 
-The cool thing about Splunk is you can set custom alerts to trigger when something weird is hapenning. As we demonstrated in the step above we can launch a brute force attack, get credentials, and rdp into a user. With Splunk we can set a cusotom rule by going to the   setting an alert saying if a user has had more than five failed loggen attempts to raise flag or suspcuisiopuns on that specific user and find out what happening there.
+The cool thing about Splunk is that you can set custom alerts to trigger when suspicious activity occurs. As shown in step 5, we launched a brute-force attack, obtained credentials, and gained RDP access to a user account. With Splunk, we can create a custom rule by going to the Settings and setting an alert to trigger if a user has more than five failed login attempts. This raises a flag for suspicious activity and helps us investigate what’s happening.
+
+1. Create alert
+
+- On our Splunk UI, we can run a search on our endpoint index and look for events containing keywords such as failed, password, etc.
+- From Save As, click Alert and configure the Settings accordingly. Under Trigger Conditions, set it to is greater than 5.
+- To save the alert, click Add Actions, choose Add to Triggered Alerts, and select the Severity.
+
+
