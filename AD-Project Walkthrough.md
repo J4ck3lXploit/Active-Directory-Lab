@@ -389,8 +389,8 @@ The cool thing about Splunk is that you can set custom alerts to trigger when su
 
 1. Create alert
 
-- On our Splunk UI, we can run a search on our endpoint index and look for events containing keywords such as failed, password, etc.
-- From Save As, click Alert and configure the Settings accordingly. Under Trigger Conditions, set it to is greater than 5.
-- To save the alert, click Add Actions, choose Add to Triggered Alerts, and select the Severity.
+- On our Splunk UI, we can run a search on our **endpoint** index and look for events containing keywords such as failed, password, etc.
+- From **Save As**, click **Alert** and configure the **Settings** accordingly. Under **Trigger Conditions**, set it to **is greater than** 5.
+- To save the alert, click **Add Actions**, choose **Add to Triggered Alerts**, and select the **Severity**.
 
 
