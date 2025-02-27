@@ -256,7 +256,7 @@ To confirm that logs are being received:
 ![data](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20152139.png)
 ![data](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20152147.png)
 
-**After we've successfully installed Splunk and Sysmon on the target machine, you need to do the same thing for the AD server.**
+**After installing Splunk and Sysmon on the target machine, you need to do the same thing for the AD server.**
 
 ---
 
