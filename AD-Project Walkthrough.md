@@ -357,7 +357,7 @@ To begin, we need to assign the correct IP address in our kali machine as specif
 ![static IP](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20163455.png)
 ![confirm](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20163503.png)
 
-To simulate a brute-force attacks on our users we created, we can use a tool called **Crowbar** [GitHub](https://github.com/galkan/crowbar) to launch attacks on our AD server or Windows machine. I install the Python version of Crowbar from GitHub, as Linux Debian does not support a specific library (maybe it is possible, but I couldn't find a way).
+To simulate a brute-force attacks on our users we created, we can use a tool called **Crowbar** [GitHub](https://github.com/galkan/crowbar) to launch attacks on our AD server or Windows machine. I installed the Python version of Crowbar from GitHub, as Linux Debian does not support a specific library (maybe it is possible, but I couldn't find a way).
 
 ![crowbar](https://github.com/J4ck3lXploit/Active-Directory-Lab/blob/main/images/Screenshot%202025-02-21%20163512.png)
 
