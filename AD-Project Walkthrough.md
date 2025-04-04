@@ -393,4 +393,3 @@ The cool thing about Splunk is that you can set custom alerts to trigger when su
 - From **Save As**, click **Alert** and configure the **Settings** accordingly. Under **Trigger Conditions**, set it to **is greater than** 5.
 - To save the alert, click **Add Actions**, choose **Add to Triggered Alerts**, and select the **Severity**.
 
-
